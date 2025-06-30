@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Basic Tags Example</title>
+</head>
+<body>
+
+    <!-- Headings -->
+    <h1>This is Heading 1</h1>
+    <h2>This is Heading 2</h2>
+    <h3>This is Heading 3</h3>
+
+    <!-- Paragraph -->
+    <p>This is a paragraph of text. HTML is used to create web pages.</p>
+
+    <!-- Link -->
+    <p>Visit <a href="https://www.google.com" target="_blank">Google</a></p>
+
+    <!-- Image -->
+    <img src="https://via.placeholder.com/150" alt="Sample Image">
+
+    <!-- List -->
+    <h3>Unordered List</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Step 1</li>
+        <li>Step 2</li>
+        <li>Step 3</li>
+    </ol>
+
+    <!-- Table -->
+    <h3>Sample Table</h3>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+        </tr>
+        <tr>
+            <td>Manasa</td>
+            <td>Web Technology</td>
+        </tr>
+        <tr>
+            <td>Akhil</td>
+            <td>Cyber Security</td>
+        </tr>
+    </table>
+
+    <!-- Form -->
+    <h3>Contact Form</h3>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+
+</body>
+</html>
